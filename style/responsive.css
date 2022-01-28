@@ -1,0 +1,50 @@
+@media (max-width:785px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+    }
+
+    .botoes {
+        display: flex;
+    }
+
+}    
+
+@media (max-width: 650px) {
+
+    header .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul {
+        font-size: 20px;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        background-color: var(--darkblue);
+    }
+
+    nav ul li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .filmePrincipal .container {
+        width: 100%;
+    }
+}
+
+
