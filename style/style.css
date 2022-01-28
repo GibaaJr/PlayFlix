@@ -79,7 +79,7 @@ header nav a:hover {
 .filmePrincipal {
     display: flex;
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/it_takes_two_02.jpg');
+    background: url('/img/it_takes_two_02.jpg');
     height: 500px;
     background-size: cover;
     background-position: right;
